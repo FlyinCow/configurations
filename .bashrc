@@ -121,7 +121,8 @@ export PATH=$PATH:/usr/local/go/bin
 export GO111MODULE=auto
 export export GOPROXY=https://goproxy.cn
 export GOPATH=~/go
-
+# ban ctrl+s to save on <C-s> in vim
+stty -ixon
 alias mysqlrepl='mysql -h127.0.0.1 -P3307'
 alias cls='clear'
 
