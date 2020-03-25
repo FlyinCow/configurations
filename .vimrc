@@ -11,6 +11,9 @@ set autochdir
 let mapleader=" "
 set number
 set mouse=a
+" save like on vscode
+imap <C-s> <ESC>:up<CR>a
+nmap <C-s> :up<CR>
 map S :w<CR>
 syntax on
 set cursorline
