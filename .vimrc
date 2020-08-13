@@ -9,7 +9,7 @@ set tabstop=2
 set backspace=indent,eol,start
 set autochdir
 let mapleader=" "
-set number
+set relativenumber
 set mouse=a
 " save like on vscode
 imap <C-s> <ESC>:up<CR>a
